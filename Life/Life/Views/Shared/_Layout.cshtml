@@ -1,8 +1,11 @@
 ﻿<!DOCTYPE html>
+<link href="~/Content/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <title>@ViewBag.Title - Lily Vosper   </title>
+          
+              
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
@@ -12,12 +15,10 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                    <p class="site-title">@Html.ActionLink("Lily's Blog", "Index", "Home") </p>
+                    <h6><a class="fa fa-instagram fa-2x" href="https://www.instagram.com/parma_violet95/"></a><a class="site-subheader" href="https://www.instagram.com/parma_violet95">Parma_Violet95</a></h6>
                 </div>
                 <div class="float-right">
-                    <section id="login">
-                        @Html.Partial("_LoginPartial")
-                    </section>
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
@@ -37,7 +38,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+                    <p>&copy; @DateTime.Now.Year - Lily Vosper</p>
                 </div>
             </div>
         </footer>
