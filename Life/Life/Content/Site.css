@@ -128,16 +128,23 @@ footer {
 
 /* site title
 ----------------------------------------------------------*/
+.site-subheader {
+    color: #1a001a;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
 .site-title {
-    color: #c8c8c8;
-    font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
-    font-size: 2.3em;
+    color: #1a001a;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 60px;
     margin: 0;
 }
 
 .site-title a, .site-title a:hover, .site-title a:active {
     background: none;
-    color: #c8c8c8;
+    color: #1a001a;
     outline: none;
     text-decoration: none;
 }
